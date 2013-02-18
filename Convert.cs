@@ -32,7 +32,7 @@ namespace GEDCOMtoXML
 			return false;
 		}
 
-		static void ConvertXML(string import_ged, string export_xml)
+		static public void ConvertXML(string import_ged, string export_xml)
 		{
 			// doing with XML
 			XmlDocument xmlDoc = new XmlDocument();
